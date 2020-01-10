@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" type="text/css" href="playground.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/play.css') }}">
+
+    <title>playground</title>
+</head>
+<header>
+    <h1>Welcome </h1>
+</header>
+
+<body class="body">
+    <div>
+        {%for i in range(context.num)%}
+        <div class="div1" style="background-color: {{ context.box_color }};"></div>
+        {%endfor%}
+    </div>
+</body>
+
+</html>
