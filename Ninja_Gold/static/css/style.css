@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+body{
+    margin: 40px 20px; 
+  }
+.box{
+    width: 200px;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+footer{
+    overflow-y: scroll;
+    width: 700px;
+    height: 150px; 
+    border: 3px solid black; 
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+p.gold_head{
+    padding: 20px 0; 
+    font-weight: 700;
+}
